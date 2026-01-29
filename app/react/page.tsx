@@ -2,7 +2,7 @@ import { createMetadata } from "@/lib/metadata";
 import ReactQuiz from "./reactQuizClient";
 
 export const metadata = createMetadata({
-    title: "React JS Interview Questions & Quiz | Interview Pro",
+    title: "React JS Interview Questions & Quiz | Stone Code",
     description: "Test your React JS knowledge with interactive interview questions and quizzes. Cover components, hooks, state management, and modern React patterns.",
     path: "/react",
 });

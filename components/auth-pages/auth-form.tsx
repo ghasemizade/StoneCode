@@ -38,7 +38,7 @@ export function AuthForm() {
     return (
         <>
             <div className="mb-6 flex items-center justify-center gap-1">
-                <h1 className="text-3xl font-bold text-center mb-2 text-gray-900">Interview Pro</h1>
+                <h1 className="text-3xl font-bold text-center mb-2 text-gray-900">Stone Code</h1>
                 <Image src={"/logo.png"} height={50} width={50} alt="logo pix" />
             </div>
             <p className="text-center text-gray-600 mb-8">{isLogin ? "Welcome back!" : "Create your account"}</p>
