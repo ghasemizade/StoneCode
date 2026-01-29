@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { QuestionCard } from "./question-card"
+import { Header } from "./header"
 
 const SAMPLE_QUESTIONS = [
     {
@@ -71,7 +72,9 @@ export function QuestionList() {
     })
 
     return (
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <main className="min-h-screen bg-linear-to-br from-background via-card to-background">
+            <Header />
+            <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
             <div className="mb-8">
                 <h2 className="text-xl font-semibold text-foreground mb-4">Coding Challenges</h2>
 
@@ -113,5 +116,6 @@ export function QuestionList() {
                 </div>
             )}
         </div>
+        </main>
     )
 }
