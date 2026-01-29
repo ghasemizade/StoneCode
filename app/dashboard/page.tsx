@@ -24,6 +24,9 @@ function DashboardContent() {
                         <ThemeToggle />
                     </div>
                     <div className="flex items-center gap-4">
+                        <Link href="/challenge">
+                            <Button variant="outline">Challenge</Button>
+                        </Link>
                         <Link href="/profile">
                             <Button variant="outline">My Profile</Button>
                         </Link>
