@@ -68,7 +68,7 @@ export default function QuizScreen({
     difficulty === "junior" ? "Junior Developer" : difficulty === "mid" ? "Mid-Level Developer" : "Senior Developer"
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-card to-background p-4 md:p-8">
+    <div className="min-h-screen bg-linear-to-br from-background via-card to-background p-4 md:p-8">
       <div className="mx-auto max-w-2xl">
         {/* Header with difficulty badge */}
         <div className="mb-8">
