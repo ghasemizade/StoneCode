@@ -39,7 +39,7 @@ export default function Home() {
           <nav className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
             <div className="flex items-center gap-2">
               <Image src={"/logo.png"} height={50} width={50} alt="logo pix" />
-              <span className="text-xl md:text-2xl font-bold">InterviewPro</span>
+              <span className="text-xl md:text-2xl font-bold">Stone Code</span>
             </div>
             <div className="flex gap-4">
               <Link href="/auth?mode=login" className="hidden md:flex px-6 py-2 text-muted-foreground hover:text-gray-300 transition">
@@ -79,7 +79,7 @@ export default function Home() {
 
           {/* Features Section */}
           <section className="max-w-7xl mx-auto px-6 py-16">
-            <h2 className="text-3xl font-bold text-center mb-12">Why Choose InterviewPro?</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Why Choose StoneCode?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {/* Feature 1 */}
               <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 hover:border-blue-500 transition">
@@ -144,7 +144,7 @@ export default function Home() {
           </section>
           {/* Footer */}
           <footer className="border-t border-slate-700 py-8 text-center text-gray-400 flex justify-around flex-col md:flex-row gap-4 items-center">
-            <p>&copy; 2025 InterviewPro. All rights reserved.</p>
+            <p>&copy; 2025 StoneCode. All rights reserved.</p>
             <div>
               For Supporting💙, Give Me
               <span className='pr-1'></span>

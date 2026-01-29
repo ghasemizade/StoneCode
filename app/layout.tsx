@@ -11,7 +11,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Online Interview Platform for Smarter Hiring',
+  title: 'Online Interview Platform for Smarter Hiring | Stone Code',
   description: 'Conduct seamless online interviews with real-time video, structured evaluations, and candidate management tools—all in one secure platform.',
   icons: {
     icon: [
