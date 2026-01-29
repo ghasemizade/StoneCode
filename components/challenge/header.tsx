@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Header() {
@@ -6,9 +7,7 @@ export function Header() {
             <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
-                            {"</>"}
-                        </div>
+                        <Image src={"/logo.png"} height={60} width={60} alt="stonecode logo"></Image>
                         <h1 className="text-2xl font-bold text-foreground">Stone Code</h1>
                     </div>
                     <div className="flex items-center gap-4">
