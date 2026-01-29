@@ -20,10 +20,12 @@ function DashboardContent() {
             {/* Header */}
             <header className="border-b border-border z-10 relative">
                 <div className="max-w-6xl mx-auto px-4 md:px-8 py-6 flex items-center justify-between">
-                    <div>
-                        <ThemeToggle />
+                    <div className="flex items-center gap-3">
+                        <Image src={"/logo.png"} height={60} width={60} alt="stonecode logo"></Image>
+                        <h1 className="text-2xl font-bold text-foreground">Stone Code</h1>
                     </div>
                     <div className="flex items-center gap-4">
+                        <ThemeToggle />
                         <Link href="/challenge">
                             <Button variant="outline">Challenge</Button>
                         </Link>

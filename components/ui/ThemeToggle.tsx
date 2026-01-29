@@ -16,7 +16,7 @@ export function ThemeToggle() {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="rounded-lg border px-3 py-2 text-sm hover:bg-muted transition"
         >
-            {theme === 'dark' ? '🌙 Dark' : '☀️ Light'}
+            {theme === 'dark' ? '🌙' : '☀️'}
         </button>
     )
 }
