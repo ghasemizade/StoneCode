@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+.travel-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info-inputs {
+    display: flex;
+    gap: 40px;
+}
+.info-inputs .input-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-inputs .input-item p {
+    background-color: #007bff4d;
+    width: fit-content;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.info-inputs .input-item input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    outline: none;
+}
+.info-inputs .input-item input:focus{
+    border-bottom: 1px solid #007BFF;
+    transition: border-bottom 0.1s ease;
+}
+.path-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.path-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.path-info .pathes {
+    display: flex;
+    gap: 40px;
+}
+.path-info select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.path-info select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.action-btn {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.action-btn .confirm-btn {
+    background-color: rgb(27, 201, 27);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.action-btn .confirm-btn:hover{
+    background-color: rgb(27, 201, 27, 0.8);
+}
+.action-btn .cancel-btn {
+    background-color: rgb(201, 27, 27);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.action-btn .cancel-btn:hover {
+    background-color: rgb(201, 27, 27, 0.8);
+}
+
+.co-info{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+.co-info h2 {
+    visibility: hidden;
+}
+.co-info .description {
+    background-color: #007bff4d;
+    padding: 10px;
+    border-radius: 4px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 480px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .info-inputs {
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 1080px) {
+    .container {
+        flex-direction: column;
+    }
+    .co-info h2 {
+    visibility: visible;
+}
+}
